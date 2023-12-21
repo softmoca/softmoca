@@ -1,6 +1,7 @@
-import { getNonFeaturedPosts } from "@/service/posts";
-import MultiCarousel from "./MultiCarousel";
+import { getNonFeaturedPosts } from "@/app/api/posts";
+
 import PostCard from "./PostCard";
+import MultiCarousel from "./MultiCarousel";
 
 export default async function CarouselPosts() {
   const posts = await getNonFeaturedPosts();
