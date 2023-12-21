@@ -10,6 +10,12 @@ export type Post = {
   featured: boolean;
 };
 
+export type PostData = Post & {
+  content: string;
+  next: Post | null;
+  prev: Post | null;
+};
+
 export async function getFeaturedPosts(): Promise<Post[]> {
   return getAllPosts() //
     .then((posts) => posts.filter((post) => post.featured));
