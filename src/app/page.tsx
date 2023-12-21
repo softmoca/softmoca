@@ -1,10 +1,10 @@
+import Hero from "@/components/Hero";
 import Image from "next/image";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="bg-gray-500">
-      Main
-      <div className="text-5xl">hi</div>
-    </main>
+    <>
+      <Hero />
+    </>
   );
 }
