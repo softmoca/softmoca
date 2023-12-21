@@ -6,11 +6,11 @@ export default function Header() {
       <Link href="/">
         <h1 className="text-3xl font-bold">{"Moca's Blog"}</h1>
       </Link>
-      <nav className="flex gap-6">
-        <Link href="/">home</Link>
-        <Link href="/about">about</Link>
-        <Link href="/posts">posts</Link>
-        <Link href="/contact">contact</Link>
+      <nav className="flex gap-4 text-2xl font-thin ">
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/posts">Posts</Link>
+        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   );

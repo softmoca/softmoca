@@ -15,9 +15,7 @@ export default function Hero() {
       />
       <h2 className="text-4xl font-bold mt-2">{"Hi, I'm Moca"}</h2>
       <h3 className="text-xl font-bold">Full-stack Develover</h3>
-      <p className="text-xl text-red-500 font-semibold">
-        If it doesn’t work, Until it works.{" "}
-      </p>
+      <p className="text-xl text-red-500 font-semibold">Not First, But Best </p>
       <Link href="/contact">
         <button className="bg-yellow-300 font-bold rounded-xl py-2 px-4 mt-2 text-xl">
           Contact Me
