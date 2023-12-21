@@ -15,7 +15,7 @@ export default function AboutPage() {
         <h2 className={TITLE_CLASS}>Who Am I?</h2>
         <p>
           개발을 사랑하는 풀스택 개발자 <br />
-          사람과 디자인을 담는 웹앱을 만들고 있음
+          대학 생활을 하며 필요하다고 느끼는 서비스 플랫폼을 만들고 있음
         </p>
         <h2 className={TITLE_CLASS}>Career</h2>
         <p>
