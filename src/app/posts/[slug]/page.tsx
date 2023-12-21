@@ -1,4 +1,4 @@
-import { getPostData } from "@/app/api/posts";
+import { getFeaturedPosts, getPostData } from "@/app/api/posts";
 import AdjacentPostCard from "@/components/AdjacentPostCard";
 import MarkdownViewer from "@/components/MarkdownViewer";
 import PostContent from "@/components/PostContent";
@@ -40,4 +40,11 @@ export default async function PostPage({ params: { slug } }: Props) {
       </section>
     </article>
   );
+}
+
+export async function generateStaticParams() {
+  const posts = await getFeaturedPosts();
+  return posts.map((post) => ({
+    slug: post.path,
+  }));
 }
