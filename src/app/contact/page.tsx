@@ -1,16 +1,21 @@
 import ContactForm from "@/components/ContactForm";
 import { Metadata } from "next";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
-
+import { SiTistory } from "react-icons/si";
 export const metadata: Metadata = {
   title: "Contact Me",
   description: "Moca에게 메일 보내기",
 };
 
 const LINKS = [
-  { icon: <AiFillGithub />, url: "" },
-  { icon: <AiFillLinkedin />, url: "" },
-  { icon: <AiFillYoutube />, url: "" },
+  { icon: <AiFillGithub />, url: "https://github.com/softmoca" },
+
+  // { icon: <AiFillLinkedin />, url: "" },
+  {
+    icon: <AiFillLinkedin />,
+    url: "https://www.linkedin.com/in/%EC%98%81%EC%B2%A0-%EC%B5%9C-a90ba0263/",
+  },
+  { icon: <SiTistory />, url: "https://moca9012.tistory.com/" },
 ];
 
 export default function ContactPage() {

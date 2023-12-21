@@ -17,19 +17,10 @@ export default function AboutPage() {
           개발을 사랑하는 풀스택 개발자 <br />
           대학 생활을 하며 필요하다고 느끼는 서비스 플랫폼을 만들고 있음
         </p>
-        <h2 className={TITLE_CLASS}>Career</h2>
-        <p>
-          구글러 (-Now) <br />
-          메이스북 (-2019) <br />
-          삼준전자 (-2015)
-        </p>
-        <h2 className={TITLE_CLASS}>Skills</h2>
-        <p>
-          React, Vue, Node
-          <br />
-          Git, Clean Code <br />
-          VS Code, IntelliJ, MongoDB
-        </p>
+        <h2 className={TITLE_CLASS}>Project</h2>
+        <p>..TODO</p>
+        <h2 className={TITLE_CLASS}>Stack</h2>
+        <p>..TODO</p>
       </section>
     </>
   );
