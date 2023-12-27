@@ -70,5 +70,13 @@
     "category": "my story",
     "path": "review-2023",
     "featured": true
+  },
+  {
+    "title": "배열과 연결리스트",
+    "description": "배열과 연결리스트 활용 코딩테스트 문제",
+    "date": "2023-12-26",
+    "category": "coding test",
+    "path": "list-linked_list",
+    "featured": true
   }
 ]
