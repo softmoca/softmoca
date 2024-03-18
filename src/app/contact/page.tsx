@@ -11,11 +11,11 @@ const LINKS = [
   { icon: <AiFillGithub />, url: "https://github.com/softmoca" },
 
   // { icon: <AiFillLinkedin />, url: "" },
-  {
-    icon: <AiFillLinkedin />,
-    url: "https://www.linkedin.com/in/%EC%98%81%EC%B2%A0-%EC%B5%9C-a90ba0263/",
-  },
-  { icon: <SiTistory />, url: "https://moca9012.tistory.com/" },
+  // {
+  //   icon: <AiFillLinkedin />,
+  //   url: "https://www.linkedin.com/in/%EC%98%81%EC%B2%A0-%EC%B5%9C-a90ba0263/",
+  // },
+  { icon: <SiTistory />, url: "https://softmoca.tistory.com/" },
 ];
 
 export default function ContactPage() {
