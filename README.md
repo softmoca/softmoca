@@ -83,6 +83,12 @@
   </a> 
 </p>
 
+
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=softmoca&show_icons=true&locale=en&layout=compact&cache_seconds=0" alt="softmoca" /></p>
+
+
+
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=softmoca&show_icons=true&locale=en" alt="softmoca" /></p>
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsoftmoca&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
